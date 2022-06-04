@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* Estilos Globales */
+a:hover {
+	color: rgba(255,255,255,1.00);
+}
+/*header*/
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+/* Logo r*/
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 139px;
+	text-align: center;
+	color: white;
+	background-color: #ECC40C;
+}
+
+#headerLinks {
+	float: left;
+	width: calc( 100% - 139px );
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(255,255,255,1.00);
+}
+
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(146,146,146,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+
+#offer {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	background-color: lightcoral;
+	color: white;
+	padding-left: 115px;
+	padding-top: 57px;
+	padding-bottom: 57px;
+}
+
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}
+
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color:white;
+	padding-top: 36px;
+	height: 784px;
+}
+
+#content .mainContent {
+	float: left;
+	width: 70%;
+	text-align: center;
+	padding-left: 4%;
+}
+
+#content .sidebar #menubar {
+	text-align: left;
+	color: rgba(146,146,146,1.00);
+	position: relative;
+	left: 0%;
+}
+
+#content .sidebar #search {
+	width: 100%;
+	border-radius: 0px;
+	height: 42px;
+	text-align: center;
+	color: rgba(208,207,207,1.00);
+	font-size: 14px;
+	;
+	margin-bottom: 21px;
+}
+
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+
+.menu ul li {
+	list-style-type: none;
+	font-size: x-large;
+	position: relative;
+	left: -35px;
+	padding-top: 12px;
+}
+
+#content .mainContent .productRow {
+	overflow: auto;
+	color: rgba(146,146,146,1.00);
+}
+
+.mainContent .productRow .productInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 22%;
+}
+
+.productRow .productInfo .price {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 22px;
+	position: relative;
+	top: -20px;
+}
+
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -37px;
+	font-size: 14px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+	white-space: pre-wrap;
+}
+
+.productRow .productInfo .buyButton {
+	position: relative;
+	top: -48px;
+	width: 84%;
+	background-color: #00FB35;
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: #FFAB00;
+	line-height: 1.8;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: rgba(255,255,255,1.00);
+	text-align: justify;
+}
+
+footer div a {
+	color: rgba(146,146,146,1.00);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+.productInfo div img {
+	width: 100%;
+}
+
+.sidebar #menubar .menu ul li a {
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+.sidebar #menubar .menu ul li a:hover {
+	color: rgba(107,97,97,1.00);
+	text-decoration: none;
+}
+
+#menubar .menu h2 {
+	font-size: 14px;
+}
+
+#menubar .menu ul li a {
+	font-size: 14px;
+}
+
+.sidebar #menubar .menu {
+	margin-bottom: 29px;
+}
